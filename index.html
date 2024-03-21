@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <a href="https://www.alura.com.br/" target="_blank">
+        <img class="logoAlura" src="./imagens/logo.jpg" alt="Logo da Alura"></a>
+        <h3>Digite um texto que você deseja criptografar ou descriptografar</h3>
+    </header>
+
+    <main>
+        <section>            
+            <textarea class="text-area" cols="40" rows="10" placeholder="Digite seu texto aqui"></textarea>
+
+            <div class="informacao">
+                   <h6> <img src="./imagens/Vector.png" alt="figura de Exclamação"> Apenas letras minúsculas e sem acento.</h6>
+            </div>
+            <div class="botoes">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensagem" id="texto-copiar" cols="40" rows="10"></textarea>
+            <div id="btnCopiar">
+                <button class="btn-copiar" onclick="copiar()">Copiar</button>
+            </div>
+            <div class="caixa">
+                <img src="./imagens/boneco.png" alt="Boneco">
+            </div>        
+        </section>
+    </main>
+    
+    <footer>
+        <p class="copyright">&copy; Copyright- 2024 - Desenvolvido por Vania Godoy ♥<a class="copyright" href="https://www.freepik.com/free-vector/abstract-realistic-technology-particle-background-concept_6764489.htm#from_view=detail_alsolike">Image by Freepik</a> </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

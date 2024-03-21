@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(/imagens/fundo.png);
+}
+
+header {
+    padding: 29px;
+    text-align: start;
+}
+
+.logoAlura {
+    width: 3%;
+    border-width: 1px;
+    box-shadow: 1px 1px 3px 1px rgb(15, 68, 199);
+    border-radius: 49%; 
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h2 {
+    font-size: 15px;
+    color: #0A3871;
+    text-align: center;    
+}
+
+h3 {
+    font-size: 25px;
+    color: #5785bd;
+    text-align: center;    
+}
+
+p {
+    font-size: 13px;
+    color: #0A3871;
+    text-align: center;
+}
+
+section {
+    width: 45%;
+    margin-bottom: 5px;
+}
+
+.text-area {
+    width: 100%;
+    margin-bottom: 5px;
+    /* padding: 10px; */
+    font-size: 16px;
+    background-color: transparent;
+    color: #D8DFE8;
+    align-items: center;
+}
+
+.informacao {
+    color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;    
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;    
+    align-items: center;
+}
+
+.btn-encriptar,
+.btn-desencriptar,
+.btn-copiar {
+    padding: 10px 60px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;    
+}
+
+.btn-encriptar {
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 22px;
+    color:  white;
+}
+
+.btn-desencriptar {
+    background:#D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 22px;
+}
+
+.btn-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    background: #D8DFE8;
+    color: #0A3871;
+    cursor: pointer;
+}
+
+#btnCopiar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mensagem {
+    width: 100%;
+    margin-bottom: 5px;
+    /* padding: 10px; */
+    font-size: 16px;
+    background-color: transparent;
+    color: #D8DFE8;
+    align-items: center;
+}
+
+.caixa {
+    text-align: center;
+    padding: 20px;    
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+.caixa img {
+    width: 35%;
+    height: auto;
+    /* margin-bottom: 2px; */
+}
+
+.copyright{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* Media queries para tornar o layout responsivo */
+
+@media screen and (max-width: 768px) {
+    header {
+        margin-top: 10px;
+        padding: 20px;
+        text-align: center;
+    }
+    .logoAlura {
+        width: 3%;
+    }
+
+    h3 {
+        margin-top: 22px;
+        font-size: 15px;   
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section {
+        width: fit-content;       
+    }
+
+    .text-area,
+    .mensagem {
+        font-size: 14px;
+        align-items: center;
+    }
+
+    .botoes {
+        justify-content: space-around;
+    }
+
+    .btn-encriptar,
+    .btn-desencriptar,
+    .btn-copiar {
+        font-size: 14px;
+        padding: 12px 25px;
+    }
+}
