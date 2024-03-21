@@ -21,8 +21,8 @@ O Encriptador é uma aplicação web que permite ao usuário criptografar ou des
 
 ## Recursos
 
-- [Repositório Git](https://github.com/seu-username/seu-repositorio): Link para o repositório do Git onde este projeto está hospedado.
-- [Vercel](https://vercel.com/): Link para a implantação do projeto no Vercel.
+- [Repositório Git](https://github.com/VaniaGodoy/challengeAlura): Link para o repositório do Git onde este projeto está hospedado.
+- [Vercel](https://challenge-alura-tau.vercel.app/): Link para a implantação do projeto no Vercel.
 
 ## Autor
 
